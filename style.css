@@ -1,0 +1,59 @@
+div.step_1 {
+  width: 200px;
+  height: 150px;
+  background-color: #4CB7E9;
+  box-shadow: 5px 4px 15px #276A90;
+  position: relative;
+  left: 20px;
+  border-radius: 20px;
+}
+
+div.point_1 {
+  height: 20px;
+  border-top: 20px solid green;
+  border-bottom: 20px solid red;
+  border-right: 25px solid blue; 
+  border-left: 20px solid gray;
+}
+
+div.point_2 {
+  height: 0px;
+  border-top: 20px solid green;
+  border-bottom: 20px solid red;
+  border-right: 25px solid blue; 
+}
+
+div.point_3 {
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 25px solid blue; 
+}
+
+div.point_4 {
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 25px solid blue; 
+  position: relative;
+  top: 25px;
+  left: -200px;
+}
+
+
+div.bubble {
+  width: 200px;
+  height: 150px;
+  background-color: #4CB7E9;
+  position: relative;
+  left: 20px;
+  border-radius: 20px;
+}
+div.point {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 25px solid #4CB7E9; 
+  position: relative;
+  top: 25px;
+  right: 200px;
+}
